@@ -1,3 +1,4 @@
+![Enigma Cat](https://github.com/user-attachments/assets/b6ea236e-b700-444a-9bbb-aecd29ad241f)
 # Enigma Cat
 ### O Decodificador felino ideal para passar as suas mensagens!
 # Decodificador
