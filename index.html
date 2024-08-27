@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EnigmaCat</title>
+    <link rel="stylesheet" href="./styles/style.css">
+    <link rel="shortcut icon" href="./Imagens/Enigma Cat.png" type="image/x-icon">
+</head>
+<body>
+
+    <main class="main container">
+        <header class="cabecalho">
+            <img src="./Imagens/Enigma Cat.png" alt="Logo">
+            <h1>EnigmaCat</h1>     
+        </header>
+    <div class="container__input">
+        <div class="input">
+            <textarea id="input__texto" placeholder="Digite o seu texto aqui..."></textarea>
+                <div class="icone__atencao">
+                    <img src="./Imagens/Group.png">
+                    <p>Apenas letras minúsculas e sem acento.</p> 
+                </div>
+        </div>
+
+    <div id="output">
+        <img src="./Imagens/search cat.png" alt="Gato com lupa atrás">
+        <h2>Nenhuma mensagem encontrada</h2>
+        <span>Digite um texto que você deseja criptografar ou descriptografar.</span>
+
+    </div>
+    </div>
+
+    <div class="buttons">
+        <div class="container__bnt">
+            <button onclick="criptografar()" class="btn__criptografar">Criptografar</button>
+            <button onclick="descriptografar()" class="btn__descriptografar">Descriptografar</button>
+
+        </div>
+    </div>
+    </main>
+    <footer class="rodape">
+                <a href="https://github.com/PolarGenericName"><ion-icon name="logo-github"></ion-icon></a>
+                <h3>Desenvolvido por Rodrigo Pinheiro</h3>
+
+        </div>
+        <img src="./secret/maxwell-cat.gif" alt="Gato maxwell">
+
+    </footer>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    
+    <script src="./JsFiles/script.js"></script>
+</body>
+</html>
