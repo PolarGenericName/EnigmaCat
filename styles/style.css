@@ -236,3 +236,31 @@ body{
 .rodape a{
     color: var(--cor-quartetaria);
 }
+@media (max-width: 768px) {
+    .container__input {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .container__input .input,
+    #input__texto,
+    #output {
+        width: 100%;
+        height: auto;
+    }
+
+    #input__texto {
+        margin-bottom: 20px;
+    }
+
+    #output {
+        margin-top: 20px;
+    }
+
+    .container__bnt button,
+    .btn__copiar {
+        width: 100%;
+        margin: 10px 0;
+    }
+}
+
